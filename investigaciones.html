@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="icon" type="image/x-icon" href="img/tecnologia.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Sitio Web - Acerca de la vida de Alan Turing</title>
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>¿Quien fue Alan Turing?</h1>
+      <button class="hamburger-menu"
+        aria-label="Abrir menú de navegación"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        &#9776; <!-- Icono de hamburguesa -->
+      </button>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="biografia.html">Biografia</a></li>
+          <li><a href="investigaciones.html">Investigaciones</a></li>
+          <li><a href="consecuencias.html">Repercusion de su descubrimiento</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2> ¿Qué hizo Alan Turing y con qué finalidad?</h2>
+      <p>
+        Los aportes de Alan Turing abarcan diferentes áreas científicas, aunque pueden identificarse tres líneas principales de investigación:
+la teoría de la computación, el criptoanálisis y el estudio de la inteligencia de las máquinas.
+      </p>
+      <img src="img/investigacionturing.jpg"
+        alt="Descripción de la imagen genérica del equipo"
+      >
+      <p>
+        Uno de sus aportes fundamentales fue la formulación de la Máquina de Turing, un modelo matemático abstracto desarrollado en 1936 para formalizar el concepto de cálculo mecánico. Turing buscaba estudiar qué problemas podían resolverse mediante procedimientos definidos y cuáles excedían los límites de cualquier método algorítmico.
+      </p>
+       <p>
+        La máquina no fue concebida originalmente como una computadora física, sino como un modelo teórico compuesto por una cinta potencialmente infinita, un mecanismo capaz de leer y escribir símbolos y un conjunto de reglas que determinaban las acciones que debía realizar. A partir de este modelo, Turing pudo estudiar formalmente la noción de algoritmo y los límites de la computabilidad.
+       </p>
+        <p>
+          Este trabajo constituyó uno de los fundamentos de la informática teórica, ya que permitió establecer una relación formal entre problemas, algoritmos y máquinas capaces de ejecutar instrucciones.
+         </p>
+      <article>
+        <h3> El trabajo criptográfico y la Bombe.</h3>
+        <p>
+          Durante la Segunda Guerra Mundial, Turing comenzó a aplicar sus conocimientos matemáticos y lógicos a un problema de carácter práctico: el descifrado de las comunicaciones militares alemanas.
+        </p>
+         <p>
+           Las fuerzas alemanas utilizaban diferentes variantes de la máquina Enigma para cifrar sus comunicaciones. El funcionamiento de Enigma permitía transformar cada letra introducida en otra mediante un sistema de rotores y conexiones eléctricas. Además, la configuración de la máquina podía modificarse, lo que generaba una enorme cantidad de combinaciones posibles. Por este motivo, intentar probar manualmente todas las configuraciones resultaba inviable.
+         </p>
+          <p>
+           El objetivo del trabajo realizado en Bletchley Park era encontrar métodos que permitieran reducir sistemáticamente el número de configuraciones posibles y determinar cuáles podían ser compatibles con los mensajes interceptados.
+          </p>
+            <p>
+               En este contexto, Turing participó en el desarrollo de la Bombe, un dispositivo electromecánico diseñado para automatizar parte del proceso de búsqueda de las configuraciones utilizadas por Enigma. La Bombe no funcionaba simplemente probando todas las claves posibles de manera indiscriminada. Su funcionamiento se basaba en información obtenida a partir del propio análisis de los mensajes, especialmente en determinadas hipótesis sobre fragmentos de texto que se esperaba que aparecieran en ellos, conocidas como cribs.
+            </p>
+             <p>
+               A partir de estas hipótesis, los criptoanalistas podían establecer relaciones entre las letras de un mensaje y las configuraciones posibles de los rotores de Enigma. La Bombe utilizaba estas relaciones para descartar rápidamente configuraciones incompatibles. De esta manera, el proceso que habría requerido una enorme cantidad de trabajo manual podía realizarse de forma mucho más rápida y sistemática.
+             </p>
+               <p>
+                 Es importante señalar que Turing no fue el único responsable del descifrado de Enigma ni de la creación de la Bombe. Su trabajo se desarrolló dentro de un equipo de matemáticos, criptógrafos, ingenieros y operadores. Además, el diseño de la Bombe británica se basó en trabajos anteriores realizados por criptógrafos polacos, particularmente los desarrollos de Marian Rejewski y su equipo. Turing realizó aportes fundamentales al perfeccionamiento del método británico y al diseño de una versión de la Bombe adaptada a las necesidades de Bletchley Park.
+                 </p>
+                 <p>
+                  La finalidad de estas investigaciones era obtener información de las comunicaciones alemanas que pudiera ser utilizada por los Aliados. El trabajo de criptoanálisis permitió acceder a información militar que contribuyó a la planificación de operaciones y, particularmente, al seguimiento de las comunicaciones relacionadas con la guerra naval y la campaña del Atlántico.
+                 </p>
+      </article>
+      <article>
+        <h3> El Test de Turing y la inteligencia artificial</h3>
+        <p>
+          Después de la Segunda Guerra Mundial, Turing continuó investigando en el campo de la computación y comenzó a interesarse cada vez más por una cuestión que posteriormente se convertiría en uno de los problemas centrales de la inteligencia artificial: determinar si una máquina podía presentar un comportamiento que pudiera ser considerado inteligente.
+         </p>
+          <p>
+           En 1950 publicó el artículo Computing Machinery and Intelligence, en el que comienza planteando una pregunta aparentemente sencilla: "¿Pueden pensar las máquinas?". Turing consideraba que responder directamente qué significa "pensar" podía conducir a una discusión demasiado ambigua, por lo que propuso reemplazar esa pregunta por una prueba basada en el comportamiento observable de la máquina.
+          </p>
+           <p>
+             Su propuesta, conocida posteriormente como Test de Turing, consiste conceptualmente en una interacción entre una persona y dos participantes ocultos: otro ser humano y una máquina. El evaluador se comunica con ambos mediante un medio que impide conocer su identidad, por ejemplo, mediante mensajes escritos. Su objetivo es determinar cuál de los participantes es la máquina.
+            </p>
+             <p> 
+               Si, después de realizar una serie de preguntas, el evaluador no puede distinguir de manera confiable entre la respuesta humana y la respuesta producida por la máquina, se considera que la máquina ha demostrado un comportamiento suficientemente similar al humano como para superar la prueba.
+             </p>
+              <p>
+                La importancia de la propuesta de Turing radica en que no intenta determinar directamente si una máquina posee una mente o conciencia, sino evaluar si su comportamiento durante una conversación resulta indistinguible del comportamiento humano bajo determinadas condiciones. De esta manera, trasladó la discusión desde una cuestión filosófica difícil de definir —qué significa exactamente "pensar"— hacia un criterio experimental basado en la interacción y en la capacidad de la máquina para producir respuestas.
+              </p>
+               <p>
+                 El Test de Turing se convirtió en uno de los antecedentes conceptuales más importantes de la inteligencia artificial. Aunque posteriormente surgieron numerosas críticas y nuevos métodos para evaluar sistemas inteligentes, la propuesta de Turing continúa siendo relevante porque introdujo tempranamente la idea de analizar la inteligencia artificial a partir de las capacidades observables de un sistema.
+                </p>
+                 <p>
+                   En consecuencia, las investigaciones de Turing tuvieron finalidades diferentes a lo largo de su trayectoria. Sus trabajos iniciales buscaban formalizar matemáticamente el concepto de computación y determinar sus límites; durante la Segunda Guerra Mundial, sus conocimientos fueron aplicados al criptoanálisis de las comunicaciones alemanas; y posteriormente orientó sus investigaciones hacia el desarrollo de la computación y el estudio de la posibilidad de que las máquinas exhibieran comportamientos inteligentes.
+                  </p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <p>&copy; 2025 Mi Sitio Genérico. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <script src="js/base.js"></script>
+</body>
+</html>
