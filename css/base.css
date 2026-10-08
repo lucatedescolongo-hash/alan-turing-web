@@ -189,3 +189,61 @@ footer p {
   font-size: 1rem;
   font-weight: bold;
 }
+
+@media screen and (min-width: 768px) {
+  /* Menú fijo en pantallas grandes */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  /* Oculta el botón de hamburguesa en pantallas grandes */
+  button.hamburger-menu {
+    display: none;
+  }
+
+  /* Muestra el menú de navegación en línea en pantallas grandes */
+  nav {
+    display: block; /* Vuelve a modelo de bloque para el flujo normal */
+    position: static; /* Restaura la posición estática */
+    width: auto; /* Ancho automático */
+    background-color: transparent; /* Fondo transparente */
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  nav ul {
+    flex-direction: row; /* Elementos del menú en fila */
+    justify-content: flex-end; /* Alinea a la derecha */
+  }
+
+  nav li {
+    margin-left: 1rem; /* Espacio entre elementos del menú */
+    margin-bottom: 0;
+    width: auto;
+  }
+
+  nav a {
+    padding: 0.5rem 1rem; /* Ajusta el relleno interno para pantallas grandes */
+    border-radius: 0.5rem;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+      /* Ejemplo: una columna para barra lateral, otra para contenido */
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  section.right {
+    grid-column-start: 2
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    main {
+        padding: 2rem;
+    }
+}
