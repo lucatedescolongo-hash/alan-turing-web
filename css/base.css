@@ -230,11 +230,10 @@ footer p {
   }
 
   main {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-      /* Ejemplo: una columna para barra lateral, otra para contenido */
-    gap: 2rem;
+   max-width: 1000px;       /* Ancho máximo para que no se estire demasiado */
+    margin: 2rem auto;       /* Centra el main horizontalmente */
     padding: 2rem;
+    display: block;     
   }
 
   section.right {
